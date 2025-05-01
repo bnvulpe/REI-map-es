@@ -1,0 +1,1 @@
+El renderizado en PDF distorsiona el formato y simbología de capas de nuestro proyecto, por lo que para mostrar la versión más similar al mapa original se han adjuntado las versiones en png. Queda adjunta una de las versiones en PDF para que se pueda ver en nivel de distorsión.
