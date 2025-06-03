@@ -1,0 +1,17 @@
+SELECT
+  provincia,
+  clase_new,
+  COUNT(*) FILTER (WHERE EXTRACT(YEAR FROM fecha::date) = 2014) AS y2014,
+  COUNT(*) FILTER (WHERE EXTRACT(YEAR FROM fecha::date) = 2015) AS y2015,
+  COUNT(*) FILTER (WHERE EXTRACT(YEAR FROM fecha::date) = 2016) AS y2016,
+  COUNT(*) FILTER (WHERE EXTRACT(YEAR FROM fecha::date) = 2017) AS y2017,
+  COUNT(*) FILTER (WHERE EXTRACT(YEAR FROM fecha::date) = 2018) AS y2018,
+  COUNT(*) FILTER (WHERE EXTRACT(YEAR FROM fecha::date) = 2019) AS y2019,
+  COUNT(*) FILTER (WHERE EXTRACT(YEAR FROM fecha::date) = 2020) AS y2020,
+  COUNT(*) FILTER (WHERE EXTRACT(YEAR FROM fecha::date) = 2021) AS y2021,
+  COUNT(*) FILTER (WHERE EXTRACT(YEAR FROM fecha::date) = 2022) AS y2022,
+  COUNT(*) FILTER (WHERE EXTRACT(YEAR FROM fecha::date) = 2023) AS y2023,
+  COUNT(*) AS total
+FROM btn_poi_energia
+GROUP BY provincia, clase_new
+ORDER BY provincia, clase_new;
