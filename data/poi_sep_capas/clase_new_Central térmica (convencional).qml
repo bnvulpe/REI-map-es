@@ -1,18 +1,18 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="1" simplifyDrawingHints="0" simplifyMaxScale="1" minScale="3500000" simplifyAlgorithm="0" version="3.34.15-Prizren" maxScale="0" autoRefreshMode="Disabled" autoRefreshTime="0" symbologyReferenceScale="-1" simplifyLocal="1" readOnly="0" labelsEnabled="1" styleCategories="AllStyleCategories">
+<qgis version="3.34.15-Prizren" autoRefreshTime="0" simplifyDrawingTol="1" simplifyLocal="1" autoRefreshMode="Disabled" labelsEnabled="1" simplifyMaxScale="1" simplifyAlgorithm="0" readOnly="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" minScale="3500000" maxScale="0" simplifyDrawingHints="0" symbologyReferenceScale="-1">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal mode="0" endExpression="" startField="" endField="" durationUnit="min" accumulate="0" durationField="ID" enabled="0" limitMode="0" fixedDuration="0" startExpression="">
+  <temporal startExpression="" endExpression="" durationUnit="min" mode="0" enabled="0" durationField="ID" startField="" endField="" fixedDuration="0" limitMode="0" accumulate="0">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <elevation type="IndividualFeatures" zoffset="0" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" zscale="1" extrusionEnabled="0" binding="Centroid" extrusion="0" symbology="Line" clamping="Relative">
+  <elevation type="IndividualFeatures" zoffset="0" clamping="Relative" binding="Centroid" respectLayerSymbol="1" symbology="Line" extrusion="0" showMarkerSymbolInSurfacePlots="0" zscale="1" extrusionEnabled="0">
     <data-defined-properties>
       <Option type="Map">
         <Option type="QString" value="" name="name"/>
@@ -21,7 +21,7 @@
       </Option>
     </data-defined-properties>
     <profileLineSymbol>
-      <symbol type="line" is_animated="0" clip_to_extent="1" force_rhr="0" name="" alpha="1" frame_rate="10">
+      <symbol clip_to_extent="1" type="line" is_animated="0" frame_rate="10" name="" force_rhr="0" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -29,7 +29,7 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer id="{b358e91d-ab5d-4834-b1fd-6e7f8320da70}" class="SimpleLine" pass="0" enabled="1" locked="0">
+        <layer enabled="1" pass="0" id="{b358e91d-ab5d-4834-b1fd-6e7f8320da70}" locked="0" class="SimpleLine">
           <Option type="Map">
             <Option type="QString" value="0" name="align_dash_pattern"/>
             <Option type="QString" value="square" name="capstyle"/>
@@ -70,7 +70,7 @@
       </symbol>
     </profileLineSymbol>
     <profileFillSymbol>
-      <symbol type="fill" is_animated="0" clip_to_extent="1" force_rhr="0" name="" alpha="1" frame_rate="10">
+      <symbol clip_to_extent="1" type="fill" is_animated="0" frame_rate="10" name="" force_rhr="0" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -78,7 +78,7 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer id="{c402e9bd-84c8-40a0-a3ee-5c67d968bad0}" class="SimpleFill" pass="0" enabled="1" locked="0">
+        <layer enabled="1" pass="0" id="{c402e9bd-84c8-40a0-a3ee-5c67d968bad0}" locked="0" class="SimpleFill">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
             <Option type="QString" value="125,139,143,255" name="color"/>
@@ -103,7 +103,7 @@
       </symbol>
     </profileFillSymbol>
     <profileMarkerSymbol>
-      <symbol type="marker" is_animated="0" clip_to_extent="1" force_rhr="0" name="" alpha="1" frame_rate="10">
+      <symbol clip_to_extent="1" type="marker" is_animated="0" frame_rate="10" name="" force_rhr="0" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -111,7 +111,7 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer id="{9df02521-5e60-4b6c-b584-60a691dac634}" class="SimpleMarker" pass="0" enabled="1" locked="0">
+        <layer enabled="1" pass="0" id="{9df02521-5e60-4b6c-b584-60a691dac634}" locked="0" class="SimpleMarker">
           <Option type="Map">
             <Option type="QString" value="0" name="angle"/>
             <Option type="QString" value="square" name="cap_style"/>
@@ -144,151 +144,9 @@
       </symbol>
     </profileMarkerSymbol>
   </elevation>
-  <renderer-v2 type="pointCluster" toleranceUnit="Pixel" toleranceUnitScale="3x:0,0,0,0,0,0" referencescale="-1" tolerance="70" symbollevels="0" enableorderby="0" forceraster="0">
-    <renderer-v2 type="singleSymbol" referencescale="-1" symbollevels="0" enableorderby="0" forceraster="0">
-      <symbols>
-        <symbol type="marker" is_animated="0" clip_to_extent="1" force_rhr="0" name="0" alpha="1" frame_rate="10">
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
-            </Option>
-          </data_defined_properties>
-          <layer id="{e587e1fe-4e10-460d-a262-5183e6efbbda}" class="SimpleMarker" pass="0" enabled="1" locked="0">
-            <Option type="Map">
-              <Option type="QString" value="0" name="angle"/>
-              <Option type="QString" value="square" name="cap_style"/>
-              <Option type="QString" value="244,162,97,255" name="color"/>
-              <Option type="QString" value="1" name="horizontal_anchor_point"/>
-              <Option type="QString" value="bevel" name="joinstyle"/>
-              <Option type="QString" value="circle" name="name"/>
-              <Option type="QString" value="0,0" name="offset"/>
-              <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-              <Option type="QString" value="MM" name="offset_unit"/>
-              <Option type="QString" value="0,0,0,255" name="outline_color"/>
-              <Option type="QString" value="solid" name="outline_style"/>
-              <Option type="QString" value="0" name="outline_width"/>
-              <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
-              <Option type="QString" value="MM" name="outline_width_unit"/>
-              <Option type="QString" value="diameter" name="scale_method"/>
-              <Option type="QString" value="2" name="size"/>
-              <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
-              <Option type="QString" value="MM" name="size_unit"/>
-              <Option type="QString" value="1" name="vertical_anchor_point"/>
-            </Option>
-            <data_defined_properties>
-              <Option type="Map">
-                <Option type="QString" value="" name="name"/>
-                <Option name="properties"/>
-                <Option type="QString" value="collection" name="type"/>
-              </Option>
-            </data_defined_properties>
-          </layer>
-        </symbol>
-      </symbols>
-      <rotation/>
-      <sizescale/>
-    </renderer-v2>
-    <symbol type="marker" is_animated="0" clip_to_extent="1" force_rhr="0" name="centerSymbol" alpha="1" frame_rate="10">
-      <data_defined_properties>
-        <Option type="Map">
-          <Option type="QString" value="" name="name"/>
-          <Option name="properties"/>
-          <Option type="QString" value="collection" name="type"/>
-        </Option>
-      </data_defined_properties>
-      <layer id="{1e86091e-dc79-44d7-9f55-c10b1b047839}" class="SvgMarker" pass="0" enabled="1" locked="0">
-        <Option type="Map">
-          <Option type="QString" value="0" name="angle"/>
-          <Option type="QString" value="195,126,188,255" name="color"/>
-          <Option type="QString" value="0" name="fixedAspectRatio"/>
-          <Option type="QString" value="1" name="horizontal_anchor_point"/>
-          <Option type="QString" value="C:/Users/bnvul/Desktop/REI-map-es/data/icons/53.svg" name="name"/>
-          <Option type="QString" value="0,0" name="offset"/>
-          <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-          <Option type="QString" value="MM" name="offset_unit"/>
-          <Option type="QString" value="195,126,188,255" name="outline_color"/>
-          <Option type="QString" value="0" name="outline_width"/>
-          <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
-          <Option type="QString" value="MM" name="outline_width_unit"/>
-          <Option name="parameters"/>
-          <Option type="QString" value="diameter" name="scale_method"/>
-          <Option type="QString" value="4" name="size"/>
-          <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
-          <Option type="QString" value="MM" name="size_unit"/>
-          <Option type="QString" value="2" name="vertical_anchor_point"/>
-        </Option>
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" value="" name="name"/>
-            <Option type="Map" name="properties">
-              <Option type="Map" name="height">
-                <Option type="bool" value="true" name="active"/>
-                <Option type="QString" value="scale_linear(@cluster_size, 10, 100, 6, 10)" name="expression"/>
-                <Option type="int" value="3" name="type"/>
-              </Option>
-              <Option type="Map" name="width">
-                <Option type="bool" value="true" name="active"/>
-                <Option type="QString" value="scale_linear(@cluster_size, 10, 100, 6, 10)" name="expression"/>
-                <Option type="int" value="3" name="type"/>
-              </Option>
-            </Option>
-            <Option type="QString" value="collection" name="type"/>
-          </Option>
-        </data_defined_properties>
-      </layer>
-      <layer id="{7bb74676-c9a2-4667-808f-e4c0adcc71a9}" class="FontMarker" pass="0" enabled="1" locked="0">
-        <Option type="Map">
-          <Option type="QString" value="0" name="angle"/>
-          <Option type="QString" value="A" name="chr"/>
-          <Option type="QString" value="227,188,158,255" name="color"/>
-          <Option type="QString" value="Berlin Sans FB" name="font"/>
-          <Option type="QString" value="Normal" name="font_style"/>
-          <Option type="QString" value="1" name="horizontal_anchor_point"/>
-          <Option type="QString" value="miter" name="joinstyle"/>
-          <Option type="QString" value="0,-0.40000000000000002" name="offset"/>
-          <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-          <Option type="QString" value="MM" name="offset_unit"/>
-          <Option type="QString" value="255,255,255,255" name="outline_color"/>
-          <Option type="QString" value="0" name="outline_width"/>
-          <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
-          <Option type="QString" value="MM" name="outline_width_unit"/>
-          <Option type="QString" value="3.2" name="size"/>
-          <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
-          <Option type="QString" value="MM" name="size_unit"/>
-          <Option type="QString" value="0" name="vertical_anchor_point"/>
-        </Option>
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" value="" name="name"/>
-            <Option type="Map" name="properties">
-              <Option type="Map" name="char">
-                <Option type="bool" value="true" name="active"/>
-                <Option type="QString" value="@cluster_size" name="expression"/>
-                <Option type="int" value="3" name="type"/>
-              </Option>
-              <Option type="Map" name="offset">
-                <Option type="bool" value="true" name="active"/>
-                <Option type="QString" value="'0'|| ',' || tostring(-0.1*(scale_linear(@cluster_size, 10, 100, 3, 5)))" name="expression"/>
-                <Option type="int" value="3" name="type"/>
-              </Option>
-              <Option type="Map" name="size">
-                <Option type="bool" value="true" name="active"/>
-                <Option type="QString" value="0.85*(scale_linear(@cluster_size, 10, 100, 3, 5))" name="expression"/>
-                <Option type="int" value="3" name="type"/>
-              </Option>
-            </Option>
-            <Option type="QString" value="collection" name="type"/>
-          </Option>
-        </data_defined_properties>
-      </layer>
-    </symbol>
-  </renderer-v2>
-  <selection mode="Default">
-    <selectionColor invalid="1"/>
-    <selectionSymbol>
-      <symbol type="marker" is_animated="0" clip_to_extent="1" force_rhr="0" name="" alpha="1" frame_rate="10">
+  <renderer-v2 forceraster="0" type="singleSymbol" referencescale="-1" enableorderby="0" symbollevels="0">
+    <symbols>
+      <symbol clip_to_extent="1" type="marker" is_animated="0" frame_rate="10" name="0" force_rhr="0" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -296,7 +154,53 @@
             <Option type="QString" value="collection" name="type"/>
           </Option>
         </data_defined_properties>
-        <layer id="{f1cebeb6-cf50-4ebd-b21c-310052f2cea8}" class="SimpleMarker" pass="0" enabled="1" locked="0">
+        <layer enabled="1" pass="0" id="{30afc15e-eae7-431a-9c5d-d42eba051ed7}" locked="0" class="SimpleMarker">
+          <Option type="Map">
+            <Option type="QString" value="0" name="angle"/>
+            <Option type="QString" value="square" name="cap_style"/>
+            <Option type="QString" value="149,149,149,255" name="color"/>
+            <Option type="QString" value="1" name="horizontal_anchor_point"/>
+            <Option type="QString" value="bevel" name="joinstyle"/>
+            <Option type="QString" value="circle" name="name"/>
+            <Option type="QString" value="0,0" name="offset"/>
+            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+            <Option type="QString" value="MM" name="offset_unit"/>
+            <Option type="QString" value="247,247,247,255" name="outline_color"/>
+            <Option type="QString" value="solid" name="outline_style"/>
+            <Option type="QString" value="0.4" name="outline_width"/>
+            <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+            <Option type="QString" value="MM" name="outline_width_unit"/>
+            <Option type="QString" value="diameter" name="scale_method"/>
+            <Option type="QString" value="2" name="size"/>
+            <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+            <Option type="QString" value="MM" name="size_unit"/>
+            <Option type="QString" value="1" name="vertical_anchor_point"/>
+          </Option>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" value="" name="name"/>
+              <Option name="properties"/>
+              <Option type="QString" value="collection" name="type"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </symbols>
+    <rotation/>
+    <sizescale/>
+  </renderer-v2>
+  <selection mode="Default">
+    <selectionColor invalid="1"/>
+    <selectionSymbol>
+      <symbol clip_to_extent="1" type="marker" is_animated="0" frame_rate="10" name="" force_rhr="0" alpha="1">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <layer enabled="1" pass="0" id="{f1cebeb6-cf50-4ebd-b21c-310052f2cea8}" locked="0" class="SimpleMarker">
           <Option type="Map">
             <Option type="QString" value="0" name="angle"/>
             <Option type="QString" value="square" name="cap_style"/>
@@ -331,12 +235,12 @@
   </selection>
   <labeling type="simple">
     <settings calloutType="simple">
-      <text-style capitalization="0" legendString="Aa" fontWordSpacing="0" fontItalic="0" fontFamily="Open Sans" fontWeight="50" fontKerning="1" namedStyle="Regular" isExpression="0" previewBkgrdColor="255,255,255,255" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fieldName="NOMBRE" fontStrikeout="0" textOrientation="horizontal" blendMode="0" textOpacity="1" fontSizeUnit="Point" forcedBold="0" textColor="50,50,50,255" allowHtml="0" multilineHeight="1" fontUnderline="0" fontSize="10" fontLetterSpacing="0" forcedItalic="0" multilineHeightUnit="Percentage">
+      <text-style fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontItalic="0" fontWeight="50" multilineHeight="1" forcedBold="0" namedStyle="Regular" useSubstitutions="0" fontSize="10" textColor="50,50,50,255" previewBkgrdColor="255,255,255,255" fontKerning="1" isExpression="0" fieldName="NOMBRE" textOpacity="1" fontSizeUnit="Point" fontLetterSpacing="0" blendMode="0" multilineHeightUnit="Percentage" fontUnderline="0" allowHtml="0" capitalization="0" fontStrikeout="0" fontFamily="Open Sans" forcedItalic="0" textOrientation="horizontal" fontWordSpacing="0" legendString="Aa">
         <families/>
-        <text-buffer bufferColor="244,162,97,255" bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferDraw="1" bufferBlendMode="0" bufferNoFill="1"/>
-        <text-mask maskSizeUnits="MM" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskOpacity="1" maskEnabled="0" maskSize="1.5" maskSize2="1.5" maskJoinStyle="128" maskedSymbolLayers="" maskType="0"/>
-        <background shapeRadiiX="0" shapeRadiiUnit="Point" shapeOffsetY="0" shapeJoinStyle="64" shapeOpacity="1" shapeSizeUnit="Point" shapeBlendMode="0" shapeBorderColor="128,128,128,255" shapeType="0" shapeBorderWidth="0" shapeBorderWidthUnit="Point" shapeRotationType="0" shapeOffsetX="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="Point" shapeSizeX="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiY="0" shapeSVGFile="" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeY="0" shapeSizeType="0" shapeRotation="0" shapeDraw="0" shapeFillColor="255,255,255,255" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0">
-          <symbol type="marker" is_animated="0" clip_to_extent="1" force_rhr="0" name="markerSymbol" alpha="1" frame_rate="10">
+        <text-buffer bufferSizeUnits="MM" bufferBlendMode="0" bufferDraw="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="244,162,97,255" bufferNoFill="1" bufferSize="1" bufferJoinStyle="128" bufferOpacity="1"/>
+        <text-mask maskSize="1.5" maskType="0" maskedSymbolLayers="" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskEnabled="0" maskJoinStyle="128" maskSize2="1.5" maskOpacity="1"/>
+        <background shapeSizeY="0" shapeSVGFile="" shapeSizeUnit="Point" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeSizeX="0" shapeOffsetX="0" shapeOffsetUnit="Point" shapeDraw="0" shapeJoinStyle="64" shapeOffsetY="0" shapeRadiiX="0" shapeRadiiY="0" shapeBorderColor="128,128,128,255" shapeBorderWidthUnit="Point" shapeBorderWidth="0" shapeType="0" shapeRadiiUnit="Point" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeFillColor="255,255,255,255" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBlendMode="0" shapeRotation="0" shapeRotationType="0">
+          <symbol clip_to_extent="1" type="marker" is_animated="0" frame_rate="10" name="markerSymbol" force_rhr="0" alpha="1">
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -344,7 +248,7 @@
                 <Option type="QString" value="collection" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer id="" class="SimpleMarker" pass="0" enabled="1" locked="0">
+            <layer enabled="1" pass="0" id="" locked="0" class="SimpleMarker">
               <Option type="Map">
                 <Option type="QString" value="0" name="angle"/>
                 <Option type="QString" value="square" name="cap_style"/>
@@ -375,7 +279,7 @@
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol type="fill" is_animated="0" clip_to_extent="1" force_rhr="0" name="fillSymbol" alpha="1" frame_rate="10">
+          <symbol clip_to_extent="1" type="fill" is_animated="0" frame_rate="10" name="fillSymbol" force_rhr="0" alpha="1">
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -383,7 +287,7 @@
                 <Option type="QString" value="collection" name="type"/>
               </Option>
             </data_defined_properties>
-            <layer id="" class="SimpleFill" pass="0" enabled="1" locked="0">
+            <layer enabled="1" pass="0" id="" locked="0" class="SimpleFill">
               <Option type="Map">
                 <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
                 <Option type="QString" value="255,255,255,255" name="color"/>
@@ -407,7 +311,7 @@
             </layer>
           </symbol>
         </background>
-        <shadow shadowOffsetAngle="135" shadowRadiusAlphaOnly="0" shadowColor="0,0,0,255" shadowOpacity="0.69999999999999996" shadowUnder="0" shadowScale="100" shadowBlendMode="6" shadowOffsetDist="1" shadowRadiusUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowDraw="0" shadowOffsetUnit="MM" shadowRadius="1.5" shadowOffsetGlobal="1" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0"/>
+        <shadow shadowDraw="0" shadowRadiusUnit="MM" shadowOffsetAngle="135" shadowOffsetUnit="MM" shadowColor="0,0,0,255" shadowScale="100" shadowOffsetGlobal="1" shadowRadius="1.5" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOpacity="0.69999999999999996" shadowBlendMode="6" shadowUnder="0" shadowRadiusAlphaOnly="0" shadowOffsetDist="1" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0"/>
         <dd_properties>
           <Option type="Map">
             <Option type="QString" value="" name="name"/>
@@ -417,9 +321,9 @@
         </dd_properties>
         <substitutions/>
       </text-style>
-      <text-format wrapChar="" multilineAlign="3" formatNumbers="0" reverseDirectionSymbol="0" leftDirectionSymbol="&lt;" decimals="3" rightDirectionSymbol=">" addDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" autoWrapLength="0" placeDirectionSymbol="0" plussign="0"/>
-      <placement geometryGenerator="" lineAnchorPercent="0.5" centroidInside="0" preserveRotation="1" maxCurvedCharAngleIn="25" overrunDistanceUnit="MM" overrunDistance="0" polygonPlacementFlags="2" dist="0" distUnits="MM" fitInPolygonOnly="0" distMapUnitScale="3x:0,0,0,0,0,0" offsetType="1" priority="5" placement="6" geometryGeneratorType="PointGeometry" repeatDistance="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" layerType="PointGeometry" placementFlags="10" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" rotationAngle="0" maxCurvedCharAngleOut="-25" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" offsetUnits="MM" lineAnchorClipping="0" geometryGeneratorEnabled="0" lineAnchorType="0" yOffset="0" overlapHandling="PreventOverlap" repeatDistanceUnits="MM" lineAnchorTextPoint="FollowPlacement" allowDegraded="0" xOffset="0" rotationUnit="AngleDegrees" quadOffset="4" centroidWhole="0"/>
-      <rendering scaleVisibility="1" obstacleFactor="1" drawLabels="1" maxNumLabels="2000" fontLimitPixelSize="0" minFeatureSize="0" obstacleType="1" fontMaxPixelSize="10000" fontMinPixelSize="3" unplacedVisibility="0" limitNumLabels="0" scaleMax="60000" labelPerPart="0" upsidedownLabels="0" mergeLines="0" obstacle="1" scaleMin="0" zIndex="0"/>
+      <text-format leftDirectionSymbol="&lt;" reverseDirectionSymbol="0" rightDirectionSymbol=">" decimals="3" plussign="0" formatNumbers="0" addDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" placeDirectionSymbol="0" autoWrapLength="0" wrapChar="" multilineAlign="3"/>
+      <placement offsetType="1" placementFlags="10" overrunDistanceUnit="MM" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" lineAnchorType="0" preserveRotation="1" maxCurvedCharAngleOut="-25" distUnits="MM" lineAnchorTextPoint="FollowPlacement" geometryGeneratorEnabled="0" centroidWhole="0" distMapUnitScale="3x:0,0,0,0,0,0" geometryGenerator="" quadOffset="4" allowDegraded="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" lineAnchorClipping="0" dist="0" xOffset="0" lineAnchorPercent="0.5" layerType="PointGeometry" offsetUnits="MM" overrunDistance="0" geometryGeneratorType="PointGeometry" overlapHandling="PreventOverlap" fitInPolygonOnly="0" rotationUnit="AngleDegrees" centroidInside="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" polygonPlacementFlags="2" rotationAngle="0" placement="6" repeatDistanceUnits="MM" yOffset="0" priority="5" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" repeatDistance="0" maxCurvedCharAngleIn="25"/>
+      <rendering labelPerPart="0" mergeLines="0" scaleMax="60000" fontLimitPixelSize="0" upsidedownLabels="0" obstacleFactor="1" fontMaxPixelSize="10000" minFeatureSize="0" zIndex="0" fontMinPixelSize="3" scaleMin="0" maxNumLabels="2000" drawLabels="1" obstacle="1" limitNumLabels="0" unplacedVisibility="0" obstacleType="1" scaleVisibility="1"/>
       <dd_properties>
         <Option type="Map">
           <Option type="QString" value="" name="name"/>
@@ -439,7 +343,7 @@
           <Option type="bool" value="false" name="drawToAllParts"/>
           <Option type="QString" value="0" name="enabled"/>
           <Option type="QString" value="point_on_exterior" name="labelAnchorPoint"/>
-          <Option type="QString" value="&lt;symbol type=&quot;line&quot; is_animated=&quot;0&quot; clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot; name=&quot;symbol&quot; alpha=&quot;1&quot; frame_rate=&quot;10&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer id=&quot;{f89c7f5d-41d7-4429-b754-2e6962f401ef}&quot; class=&quot;SimpleLine&quot; pass=&quot;0&quot; enabled=&quot;1&quot; locked=&quot;0&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;align_dash_pattern&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;square&quot; name=&quot;capstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;5;2&quot; name=&quot;customdash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;customdash_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;customdash_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;dash_pattern_offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;dash_pattern_offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;draw_inside_polygon&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;bevel&quot; name=&quot;joinstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;60,60,60,255&quot; name=&quot;line_color&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;solid&quot; name=&quot;line_style&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0.3&quot; name=&quot;line_width&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;line_width_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;ring_filter&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_end&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_end_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_end_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_start&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_start_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_start_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;use_custom_dash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;width_map_unit_scale&quot;/>&lt;/Option>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
+          <Option type="QString" value="&lt;symbol clip_to_extent=&quot;1&quot; type=&quot;line&quot; is_animated=&quot;0&quot; frame_rate=&quot;10&quot; name=&quot;symbol&quot; force_rhr=&quot;0&quot; alpha=&quot;1&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer enabled=&quot;1&quot; pass=&quot;0&quot; id=&quot;{f89c7f5d-41d7-4429-b754-2e6962f401ef}&quot; locked=&quot;0&quot; class=&quot;SimpleLine&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;align_dash_pattern&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;square&quot; name=&quot;capstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;5;2&quot; name=&quot;customdash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;customdash_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;customdash_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;dash_pattern_offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;dash_pattern_offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;draw_inside_polygon&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;bevel&quot; name=&quot;joinstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;60,60,60,255&quot; name=&quot;line_color&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;solid&quot; name=&quot;line_style&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0.3&quot; name=&quot;line_width&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;line_width_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;ring_filter&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_end&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_end_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_end_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_start&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_start_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_start_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;use_custom_dash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;width_map_unit_scale&quot;/>&lt;/Option>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
           <Option type="double" value="0" name="minLength"/>
           <Option type="QString" value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale"/>
           <Option type="QString" value="MM" name="minLengthUnit"/>
@@ -464,11 +368,11 @@
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
   <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-    <DiagramCategory enabled="0" penWidth="0" width="15" diagramOrientation="Up" penColor="#000000" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" minimumSize="0" spacing="5" barWidth="5" rotationOffset="270" sizeType="MM" backgroundColor="#ffffff" penAlpha="255" labelPlacementMethod="XHeight" scaleBasedVisibility="0" spacingUnitScale="3x:0,0,0,0,0,0" minScaleDenominator="0" spacingUnit="MM" opacity="1" maxScaleDenominator="1e+08" showAxis="1" backgroundAlpha="255" height="15" direction="0" sizeScale="3x:0,0,0,0,0,0">
-      <fontProperties bold="0" italic="0" underline="0" style="" strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
-      <attribute field="" colorOpacity="1" color="#000000" label=""/>
+    <DiagramCategory penAlpha="255" spacing="5" sizeType="MM" spacingUnitScale="3x:0,0,0,0,0,0" direction="0" height="15" labelPlacementMethod="XHeight" scaleDependency="Area" opacity="1" backgroundAlpha="255" scaleBasedVisibility="0" barWidth="5" minimumSize="0" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" penWidth="0" sizeScale="3x:0,0,0,0,0,0" showAxis="1" backgroundColor="#ffffff" width="15" spacingUnit="MM" rotationOffset="270" minScaleDenominator="0" diagramOrientation="Up" enabled="0" maxScaleDenominator="1e+08" penColor="#000000">
+      <fontProperties strikethrough="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" underline="0" bold="0" style="" italic="0"/>
+      <attribute label="" color="#000000" field="" colorOpacity="1"/>
       <axisSymbol>
-        <symbol type="line" is_animated="0" clip_to_extent="1" force_rhr="0" name="" alpha="1" frame_rate="10">
+        <symbol clip_to_extent="1" type="line" is_animated="0" frame_rate="10" name="" force_rhr="0" alpha="1">
           <data_defined_properties>
             <Option type="Map">
               <Option type="QString" value="" name="name"/>
@@ -476,7 +380,7 @@
               <Option type="QString" value="collection" name="type"/>
             </Option>
           </data_defined_properties>
-          <layer id="{b1ce25c9-39f2-4545-8214-e403f8e37643}" class="SimpleLine" pass="0" enabled="1" locked="0">
+          <layer enabled="1" pass="0" id="{b1ce25c9-39f2-4545-8214-e403f8e37643}" locked="0" class="SimpleLine">
             <Option type="Map">
               <Option type="QString" value="0" name="align_dash_pattern"/>
               <Option type="QString" value="square" name="capstyle"/>
@@ -518,7 +422,7 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings priority="0" showAll="1" zIndex="0" obstacle="0" linePlacementFlags="18" placement="0" dist="0">
+  <DiagramLayerSettings obstacle="0" zIndex="0" showAll="1" dist="0" linePlacementFlags="18" priority="0" placement="0">
     <properties>
       <Option type="Map">
         <Option type="QString" value="" name="name"/>
@@ -527,112 +431,112 @@
       </Option>
     </properties>
   </DiagramLayerSettings>
-  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
     <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
   <legend type="default-vector" showLabelLegend="0"/>
   <referencedLayers/>
   <fieldConfiguration>
-    <field name="ID" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="ID">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="ID_IGN" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="ID_IGN">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="ID_NG" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="ID_NG">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="CODIGO" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="CODIGO">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="NOMBRE" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="NOMBRE">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="ETIQUETA" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="ETIQUETA">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="CAPA" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="CAPA">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="CLASE" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="CLASE">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="COMPONENTE" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="COMPONENTE">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="BIC" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="BIC">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="COMBI" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="COMBI">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="FECHA" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="FECHA">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="MUNICIPIO" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="MUNICIPIO">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="PROVINCIA" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="PROVINCIA">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="clase_new" configurationFlags="NoFlag">
+    <field configurationFlags="NoFlag" name="clase_new">
       <editWidget type="TextEdit">
         <config>
           <Option/>
@@ -641,112 +545,112 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias field="ID" name="" index="0"/>
-    <alias field="ID_IGN" name="" index="1"/>
-    <alias field="ID_NG" name="" index="2"/>
-    <alias field="CODIGO" name="" index="3"/>
-    <alias field="NOMBRE" name="" index="4"/>
-    <alias field="ETIQUETA" name="" index="5"/>
-    <alias field="CAPA" name="" index="6"/>
-    <alias field="CLASE" name="" index="7"/>
-    <alias field="COMPONENTE" name="" index="8"/>
-    <alias field="BIC" name="" index="9"/>
-    <alias field="COMBI" name="" index="10"/>
-    <alias field="FECHA" name="" index="11"/>
-    <alias field="MUNICIPIO" name="" index="12"/>
-    <alias field="PROVINCIA" name="" index="13"/>
-    <alias field="clase_new" name="" index="14"/>
+    <alias index="0" name="" field="ID"/>
+    <alias index="1" name="" field="ID_IGN"/>
+    <alias index="2" name="" field="ID_NG"/>
+    <alias index="3" name="" field="CODIGO"/>
+    <alias index="4" name="" field="NOMBRE"/>
+    <alias index="5" name="" field="ETIQUETA"/>
+    <alias index="6" name="" field="CAPA"/>
+    <alias index="7" name="" field="CLASE"/>
+    <alias index="8" name="" field="COMPONENTE"/>
+    <alias index="9" name="" field="BIC"/>
+    <alias index="10" name="" field="COMBI"/>
+    <alias index="11" name="" field="FECHA"/>
+    <alias index="12" name="" field="MUNICIPIO"/>
+    <alias index="13" name="" field="PROVINCIA"/>
+    <alias index="14" name="" field="clase_new"/>
   </aliases>
   <splitPolicies>
-    <policy field="ID" policy="Duplicate"/>
-    <policy field="ID_IGN" policy="Duplicate"/>
-    <policy field="ID_NG" policy="Duplicate"/>
-    <policy field="CODIGO" policy="Duplicate"/>
-    <policy field="NOMBRE" policy="Duplicate"/>
-    <policy field="ETIQUETA" policy="Duplicate"/>
-    <policy field="CAPA" policy="Duplicate"/>
-    <policy field="CLASE" policy="Duplicate"/>
-    <policy field="COMPONENTE" policy="Duplicate"/>
-    <policy field="BIC" policy="Duplicate"/>
-    <policy field="COMBI" policy="Duplicate"/>
-    <policy field="FECHA" policy="Duplicate"/>
-    <policy field="MUNICIPIO" policy="Duplicate"/>
-    <policy field="PROVINCIA" policy="Duplicate"/>
-    <policy field="clase_new" policy="Duplicate"/>
+    <policy policy="Duplicate" field="ID"/>
+    <policy policy="Duplicate" field="ID_IGN"/>
+    <policy policy="Duplicate" field="ID_NG"/>
+    <policy policy="Duplicate" field="CODIGO"/>
+    <policy policy="Duplicate" field="NOMBRE"/>
+    <policy policy="Duplicate" field="ETIQUETA"/>
+    <policy policy="Duplicate" field="CAPA"/>
+    <policy policy="Duplicate" field="CLASE"/>
+    <policy policy="Duplicate" field="COMPONENTE"/>
+    <policy policy="Duplicate" field="BIC"/>
+    <policy policy="Duplicate" field="COMBI"/>
+    <policy policy="Duplicate" field="FECHA"/>
+    <policy policy="Duplicate" field="MUNICIPIO"/>
+    <policy policy="Duplicate" field="PROVINCIA"/>
+    <policy policy="Duplicate" field="clase_new"/>
   </splitPolicies>
   <defaults>
-    <default field="ID" expression="" applyOnUpdate="0"/>
-    <default field="ID_IGN" expression="" applyOnUpdate="0"/>
-    <default field="ID_NG" expression="" applyOnUpdate="0"/>
-    <default field="CODIGO" expression="" applyOnUpdate="0"/>
-    <default field="NOMBRE" expression="" applyOnUpdate="0"/>
-    <default field="ETIQUETA" expression="" applyOnUpdate="0"/>
-    <default field="CAPA" expression="" applyOnUpdate="0"/>
-    <default field="CLASE" expression="" applyOnUpdate="0"/>
-    <default field="COMPONENTE" expression="" applyOnUpdate="0"/>
-    <default field="BIC" expression="" applyOnUpdate="0"/>
-    <default field="COMBI" expression="" applyOnUpdate="0"/>
-    <default field="FECHA" expression="" applyOnUpdate="0"/>
-    <default field="MUNICIPIO" expression="" applyOnUpdate="0"/>
-    <default field="PROVINCIA" expression="" applyOnUpdate="0"/>
-    <default field="clase_new" expression="" applyOnUpdate="0"/>
+    <default applyOnUpdate="0" expression="" field="ID"/>
+    <default applyOnUpdate="0" expression="" field="ID_IGN"/>
+    <default applyOnUpdate="0" expression="" field="ID_NG"/>
+    <default applyOnUpdate="0" expression="" field="CODIGO"/>
+    <default applyOnUpdate="0" expression="" field="NOMBRE"/>
+    <default applyOnUpdate="0" expression="" field="ETIQUETA"/>
+    <default applyOnUpdate="0" expression="" field="CAPA"/>
+    <default applyOnUpdate="0" expression="" field="CLASE"/>
+    <default applyOnUpdate="0" expression="" field="COMPONENTE"/>
+    <default applyOnUpdate="0" expression="" field="BIC"/>
+    <default applyOnUpdate="0" expression="" field="COMBI"/>
+    <default applyOnUpdate="0" expression="" field="FECHA"/>
+    <default applyOnUpdate="0" expression="" field="MUNICIPIO"/>
+    <default applyOnUpdate="0" expression="" field="PROVINCIA"/>
+    <default applyOnUpdate="0" expression="" field="clase_new"/>
   </defaults>
   <constraints>
-    <constraint field="ID" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="ID_IGN" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="ID_NG" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="CODIGO" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="NOMBRE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="ETIQUETA" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="CAPA" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="CLASE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="COMPONENTE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="BIC" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="COMBI" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="FECHA" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="MUNICIPIO" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="PROVINCIA" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
-    <constraint field="clase_new" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="ID"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="ID_IGN"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="ID_NG"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="CODIGO"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="NOMBRE"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="ETIQUETA"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="CAPA"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="CLASE"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="COMPONENTE"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="BIC"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="COMBI"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="FECHA"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="MUNICIPIO"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="PROVINCIA"/>
+    <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="clase_new"/>
   </constraints>
   <constraintExpressions>
-    <constraint field="ID" exp="" desc=""/>
-    <constraint field="ID_IGN" exp="" desc=""/>
-    <constraint field="ID_NG" exp="" desc=""/>
-    <constraint field="CODIGO" exp="" desc=""/>
-    <constraint field="NOMBRE" exp="" desc=""/>
-    <constraint field="ETIQUETA" exp="" desc=""/>
-    <constraint field="CAPA" exp="" desc=""/>
-    <constraint field="CLASE" exp="" desc=""/>
-    <constraint field="COMPONENTE" exp="" desc=""/>
-    <constraint field="BIC" exp="" desc=""/>
-    <constraint field="COMBI" exp="" desc=""/>
-    <constraint field="FECHA" exp="" desc=""/>
-    <constraint field="MUNICIPIO" exp="" desc=""/>
-    <constraint field="PROVINCIA" exp="" desc=""/>
-    <constraint field="clase_new" exp="" desc=""/>
+    <constraint exp="" desc="" field="ID"/>
+    <constraint exp="" desc="" field="ID_IGN"/>
+    <constraint exp="" desc="" field="ID_NG"/>
+    <constraint exp="" desc="" field="CODIGO"/>
+    <constraint exp="" desc="" field="NOMBRE"/>
+    <constraint exp="" desc="" field="ETIQUETA"/>
+    <constraint exp="" desc="" field="CAPA"/>
+    <constraint exp="" desc="" field="CLASE"/>
+    <constraint exp="" desc="" field="COMPONENTE"/>
+    <constraint exp="" desc="" field="BIC"/>
+    <constraint exp="" desc="" field="COMBI"/>
+    <constraint exp="" desc="" field="FECHA"/>
+    <constraint exp="" desc="" field="MUNICIPIO"/>
+    <constraint exp="" desc="" field="PROVINCIA"/>
+    <constraint exp="" desc="" field="clase_new"/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
-  <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
     <columns>
-      <column type="field" name="ID" hidden="0" width="-1"/>
-      <column type="field" name="ID_IGN" hidden="0" width="-1"/>
-      <column type="field" name="ID_NG" hidden="0" width="-1"/>
-      <column type="field" name="CODIGO" hidden="0" width="-1"/>
-      <column type="field" name="NOMBRE" hidden="0" width="-1"/>
-      <column type="field" name="ETIQUETA" hidden="0" width="-1"/>
-      <column type="field" name="CAPA" hidden="0" width="-1"/>
-      <column type="field" name="CLASE" hidden="0" width="-1"/>
-      <column type="field" name="COMPONENTE" hidden="0" width="-1"/>
-      <column type="field" name="BIC" hidden="0" width="-1"/>
-      <column type="field" name="COMBI" hidden="0" width="-1"/>
-      <column type="field" name="FECHA" hidden="0" width="-1"/>
-      <column type="field" name="MUNICIPIO" hidden="0" width="-1"/>
-      <column type="field" name="PROVINCIA" hidden="0" width="-1"/>
-      <column type="field" name="clase_new" hidden="0" width="-1"/>
-      <column type="actions" hidden="1" width="-1"/>
+      <column type="field" name="ID" width="-1" hidden="0"/>
+      <column type="field" name="ID_IGN" width="-1" hidden="0"/>
+      <column type="field" name="ID_NG" width="-1" hidden="0"/>
+      <column type="field" name="CODIGO" width="-1" hidden="0"/>
+      <column type="field" name="NOMBRE" width="-1" hidden="0"/>
+      <column type="field" name="ETIQUETA" width="-1" hidden="0"/>
+      <column type="field" name="CAPA" width="-1" hidden="0"/>
+      <column type="field" name="CLASE" width="-1" hidden="0"/>
+      <column type="field" name="COMPONENTE" width="-1" hidden="0"/>
+      <column type="field" name="BIC" width="-1" hidden="0"/>
+      <column type="field" name="COMBI" width="-1" hidden="0"/>
+      <column type="field" name="FECHA" width="-1" hidden="0"/>
+      <column type="field" name="MUNICIPIO" width="-1" hidden="0"/>
+      <column type="field" name="PROVINCIA" width="-1" hidden="0"/>
+      <column type="field" name="clase_new" width="-1" hidden="0"/>
+      <column type="actions" width="-1" hidden="1"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -776,55 +680,55 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field editable="1" name="BIC"/>
-    <field editable="1" name="CAPA"/>
-    <field editable="1" name="CLASE"/>
-    <field editable="1" name="CODIGO"/>
-    <field editable="1" name="COMBI"/>
-    <field editable="1" name="COMPONENTE"/>
-    <field editable="1" name="ETIQUETA"/>
-    <field editable="1" name="FECHA"/>
-    <field editable="1" name="ID"/>
-    <field editable="1" name="ID_IGN"/>
-    <field editable="1" name="ID_NG"/>
-    <field editable="1" name="MUNICIPIO"/>
-    <field editable="1" name="NOMBRE"/>
-    <field editable="1" name="PROVINCIA"/>
-    <field editable="1" name="clase_new"/>
+    <field name="BIC" editable="1"/>
+    <field name="CAPA" editable="1"/>
+    <field name="CLASE" editable="1"/>
+    <field name="CODIGO" editable="1"/>
+    <field name="COMBI" editable="1"/>
+    <field name="COMPONENTE" editable="1"/>
+    <field name="ETIQUETA" editable="1"/>
+    <field name="FECHA" editable="1"/>
+    <field name="ID" editable="1"/>
+    <field name="ID_IGN" editable="1"/>
+    <field name="ID_NG" editable="1"/>
+    <field name="MUNICIPIO" editable="1"/>
+    <field name="NOMBRE" editable="1"/>
+    <field name="PROVINCIA" editable="1"/>
+    <field name="clase_new" editable="1"/>
   </editable>
   <labelOnTop>
-    <field name="BIC" labelOnTop="0"/>
-    <field name="CAPA" labelOnTop="0"/>
-    <field name="CLASE" labelOnTop="0"/>
-    <field name="CODIGO" labelOnTop="0"/>
-    <field name="COMBI" labelOnTop="0"/>
-    <field name="COMPONENTE" labelOnTop="0"/>
-    <field name="ETIQUETA" labelOnTop="0"/>
-    <field name="FECHA" labelOnTop="0"/>
-    <field name="ID" labelOnTop="0"/>
-    <field name="ID_IGN" labelOnTop="0"/>
-    <field name="ID_NG" labelOnTop="0"/>
-    <field name="MUNICIPIO" labelOnTop="0"/>
-    <field name="NOMBRE" labelOnTop="0"/>
-    <field name="PROVINCIA" labelOnTop="0"/>
-    <field name="clase_new" labelOnTop="0"/>
+    <field labelOnTop="0" name="BIC"/>
+    <field labelOnTop="0" name="CAPA"/>
+    <field labelOnTop="0" name="CLASE"/>
+    <field labelOnTop="0" name="CODIGO"/>
+    <field labelOnTop="0" name="COMBI"/>
+    <field labelOnTop="0" name="COMPONENTE"/>
+    <field labelOnTop="0" name="ETIQUETA"/>
+    <field labelOnTop="0" name="FECHA"/>
+    <field labelOnTop="0" name="ID"/>
+    <field labelOnTop="0" name="ID_IGN"/>
+    <field labelOnTop="0" name="ID_NG"/>
+    <field labelOnTop="0" name="MUNICIPIO"/>
+    <field labelOnTop="0" name="NOMBRE"/>
+    <field labelOnTop="0" name="PROVINCIA"/>
+    <field labelOnTop="0" name="clase_new"/>
   </labelOnTop>
   <reuseLastValue>
-    <field name="BIC" reuseLastValue="0"/>
-    <field name="CAPA" reuseLastValue="0"/>
-    <field name="CLASE" reuseLastValue="0"/>
-    <field name="CODIGO" reuseLastValue="0"/>
-    <field name="COMBI" reuseLastValue="0"/>
-    <field name="COMPONENTE" reuseLastValue="0"/>
-    <field name="ETIQUETA" reuseLastValue="0"/>
-    <field name="FECHA" reuseLastValue="0"/>
-    <field name="ID" reuseLastValue="0"/>
-    <field name="ID_IGN" reuseLastValue="0"/>
-    <field name="ID_NG" reuseLastValue="0"/>
-    <field name="MUNICIPIO" reuseLastValue="0"/>
-    <field name="NOMBRE" reuseLastValue="0"/>
-    <field name="PROVINCIA" reuseLastValue="0"/>
-    <field name="clase_new" reuseLastValue="0"/>
+    <field reuseLastValue="0" name="BIC"/>
+    <field reuseLastValue="0" name="CAPA"/>
+    <field reuseLastValue="0" name="CLASE"/>
+    <field reuseLastValue="0" name="CODIGO"/>
+    <field reuseLastValue="0" name="COMBI"/>
+    <field reuseLastValue="0" name="COMPONENTE"/>
+    <field reuseLastValue="0" name="ETIQUETA"/>
+    <field reuseLastValue="0" name="FECHA"/>
+    <field reuseLastValue="0" name="ID"/>
+    <field reuseLastValue="0" name="ID_IGN"/>
+    <field reuseLastValue="0" name="ID_NG"/>
+    <field reuseLastValue="0" name="MUNICIPIO"/>
+    <field reuseLastValue="0" name="NOMBRE"/>
+    <field reuseLastValue="0" name="PROVINCIA"/>
+    <field reuseLastValue="0" name="clase_new"/>
   </reuseLastValue>
   <dataDefinedFieldProperties/>
   <widgets/>
